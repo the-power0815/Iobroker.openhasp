@@ -3,7 +3,7 @@
   "version": "2.1.16",
   "description": "ioBroker adapter for openHASP over MQTT with runtime discovery and per-datapoint suffix sending",
   "author": {
-    "name": "m27951 & M365 Copilot"
+    "name": "The-Power 0815"
   },
   "license": "MIT",
   "main": "main.js",
