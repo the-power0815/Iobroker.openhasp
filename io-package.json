@@ -1,9 +1,9 @@
 {
   "common": {
     "name": "openhasp",
-    "version": "2.1.16",
+    "version": "0.0.1",
     "news": {
-      "2.1.16": {
+      "0.0.1": {
         "en": "Force states to type=string (no JSON objects). On startup, migrate existing datapoint states under channels: set common.type='string' and role='text' if needed.",
         "de": "Zwinge States auf type=string (kein JSON-Objekt). Beim Start: migriert bestehende Datenpunkte unter Kanälen – setzt common.type='string' und role='text' falls nötig."
       }
