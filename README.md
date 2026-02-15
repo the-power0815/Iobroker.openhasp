@@ -1,4 +1,4 @@
-# ioBroker.openhasp (v2.1.8)
+# ioBroker.openhasp (v0.0.1)
 
 **Read‑only Fix:** Der Konfig‑Leser **bevorzugt numerische Keys (1..6)**, wenn vorhanden, und **prüft Typen** der benannten Keys. So werden Altfehler (z. B. `mqttUser=1883` oder `mqttBaseTopic='Kl-...'`) ignoriert. Es gibt **keine Schreibzugriffe** auf die Instanz.
 
