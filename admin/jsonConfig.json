@@ -1,0 +1,64 @@
+{
+  "type": "panel",
+  "label": {
+    "en": "openHASP Settings",
+    "de": "openHASP Einstellungen"
+  },
+  "items": [
+    {
+      "type": "header",
+      "text": {
+        "en": "MQTT",
+        "de": "MQTT"
+      }
+    },
+    {
+      "type": "text",
+      "attr": "mqttHost",
+      "label": {
+        "en": "MQTT Host",
+        "de": "MQTT Host"
+      }
+    },
+    {
+      "type": "number",
+      "attr": "mqttPort",
+      "label": {
+        "en": "Port",
+        "de": "Port"
+      }
+    },
+    {
+      "type": "text",
+      "attr": "mqttUser",
+      "label": {
+        "en": "User",
+        "de": "Benutzer"
+      }
+    },
+    {
+      "type": "password",
+      "attr": "mqttPassword",
+      "label": {
+        "en": "Password",
+        "de": "Passwort"
+      }
+    },
+    {
+      "type": "text",
+      "attr": "mqttBaseTopic",
+      "label": {
+        "en": "Base Topic",
+        "de": "Basis-Topic"
+      }
+    },
+    {
+      "type": "checkbox",
+      "attr": "useTLS",
+      "label": {
+        "en": "Use TLS",
+        "de": "TLS verwenden"
+      }
+    }
+  ]
+}

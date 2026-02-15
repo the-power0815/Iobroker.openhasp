@@ -1,0 +1,49 @@
+{
+  "common": {
+    "name": "openhasp",
+    "version": "2.1.16",
+    "news": {
+      "2.1.16": {
+        "en": "Force states to type=string (no JSON objects). On startup, migrate existing datapoint states under channels: set common.type='string' and role='text' if needed.",
+        "de": "Zwinge States auf type=string (kein JSON-Objekt). Beim Start: migriert bestehende Datenpunkte unter Kanälen – setzt common.type='string' und role='text' falls nötig."
+      }
+    },
+    "title": "openHASP",
+    "titleLang": {
+      "en": "openHASP",
+      "de": "openHASP"
+    },
+    "desc": {
+      "en": "Control openHASP panels via MQTT with per-datapoint suffix",
+      "de": "Steuert openHASP-Panels über MQTT mit Suffix pro Datenpunkt"
+    },
+    "platform": "Javascript/Node.js",
+    "mode": "daemon",
+    "enabled": true,
+    "loglevel": "info",
+    "compact": true,
+    "adminUI": {
+      "config": "json"
+    },
+    "dependencies": [
+      {
+        "js-controller": ">=5.0.0"
+      }
+    ]
+  },
+  "native": {
+    "mqttHost": "127.0.0.1",
+    "mqttPort": 1883,
+    "mqttUser": "",
+    "mqttPassword": "",
+    "mqttBaseTopic": "hasp",
+    "useTLS": false
+  },
+  "protectedNative": [
+    "mqttPassword"
+  ],
+  "encryptedNative": [
+    "mqttPassword"
+  ],
+  "instanceObjects": []
+}
