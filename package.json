@@ -1,6 +1,6 @@
 {
   "name": "iobroker.openhasp",
-  "version": "2.1.16",
+  "version": "0.0.1",
   "description": "ioBroker adapter for openHASP over MQTT with runtime discovery and per-datapoint suffix sending",
   "author": {
     "name": "The-Power 0815"
